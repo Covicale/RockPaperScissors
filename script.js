@@ -33,7 +33,7 @@ function PlayGame(){
 
     let player = prompt("What you want to be?: 'Rock', 'Papers', 'Scissors'");
 
-    if (player == null || player == "") {
+    if (player == null || player == "" || (player != "rock" && player.toLowerCase() != "papers" && player.toLowerCase() != "scissors")) {
 
         console.log("Write something.");
 
