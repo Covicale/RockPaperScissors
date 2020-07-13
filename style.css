@@ -1,0 +1,41 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+
+    box-sizing: content-box;
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 20% 0;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+button{
+    padding: 30px 60px;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    font-size: large;
+    cursor: pointer;
+    background: rgba(0, 0, 255, 0.2);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 255, 0.2);
+}
+
+button:hover{
+    color: white;
+    background: rgba(0, 0, 255, 0.5);
+    border: 1px solid rgba(0, 0, 255, 0.7);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+p{
+
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    font-style: italic;
+
+}
