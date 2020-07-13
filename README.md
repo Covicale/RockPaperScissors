@@ -8,6 +8,6 @@ Simple website simulating the game "Rock, Papers, Scissors"
 
 ### WHY?
 
-This project is part of the **"The Odin Project".
+This project is part of the **"The Odin Project"**.
 
 If you want to see more about this, get in here: [TheOdinProject](https://www.theodinproject.com/)
