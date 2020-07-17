@@ -4,38 +4,109 @@
 
 main{
 
-    box-sizing: content-box;
     position: fixed;
     left: 0;
     top: 0;
-    padding: 20% 0;
     margin: auto;
     text-align: center;
     width: 100%;
     height: 100%;
-
 }
 
-button{
-    padding: 30px 60px;
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
-    font-size: large;
+.options{
+    margin-top: 100px;
+}
+
+.options button{
     cursor: pointer;
-    background: rgba(0, 0, 255, 0.2);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
-    border: 1px solid rgba(0, 0, 255, 0.2);
+    width: 200px;
+    height: 100px;
+    margin: 0 20px;
+    background-color: white;
+    color: black;
+    border: 8px solid rgba(0, 0, 0, 0.8);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    font-size: large;
+    font-weight: bold;
+    transition: 0.5s;
 }
 
-button:hover{
-    color: white;
-    background: rgba(0, 0, 255, 0.5);
-    border: 1px solid rgba(0, 0, 255, 0.7);
-    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+.options button:hover{
+    
+    border: 8px solid rgba(0, 0, 0, 1);
+    transform: scale(1.1);
+
 }
 
-p{
+.options-pressed{
 
-    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
-    font-style: italic;
+    border-radius: 10px;
+    border: 8px solid rgba(0, 0, 0, 1);
+    transform: scale(0.9);
 
+}
+
+.games span{
+    position: relative;
+    margin: 0px 100px;
+    display: inline-block;
+    width: 220px;
+    height: 200px;
+}
+
+h1{
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#resText{
+    margin-top: 60px;
+    visibility: hidden;
+}
+
+.imgContainer{
+
+    border: 10px solid black;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+.imgGames{
+
+    opacity: 0%;
+    transform: scale(1);
+    visibility: hidden;
+    width: 150px;
+    text-align: center;
+    padding: 20px;
+    transition: 1s;
+}
+
+.animGames{
+    opacity: 100%;
+    transform: scale(0.9);
+}
+
+footer{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+}
+
+h4{
+    top: 30%;
+    margin-right: 20px;
+    left: 0;
+    display: inline-block;
+    position: relative;
+}
+
+.iconGit{
+    top: 35%;
+    display: inline-block;
+    position: relative;
+    width: 40px;
 }

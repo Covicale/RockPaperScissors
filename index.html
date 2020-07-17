@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="script.js"></script>
     <link rel="icon" href="https://img.icons8.com/metro/26/000000/rock.png">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock, Papers, Scissors!</title>
@@ -11,9 +11,44 @@
 <body>
 
     <main>
-        <button onclick="PlayGame()">Play!</button>
-        <p>Look the console to know who won =)</p>
+        
+        <div class="options">
+
+            <button class="optBtn">ROCK</button>
+            <button class="optBtn">PAPER</button>
+            <button class="optBtn">SCISSORS</button>
+
+        </div>
+
+        <div class="games">
+            
+            <span class="player">
+                <h1 id="playerText">PLAYER (0)</h2>
+                <div class="imgContainer">
+                    <img style="visibility: hidden;" class="imgGames" id="playerIcon" src="./icons/paper.svg"/>
+                </div>
+            </span>
+            <span class="computer">
+                <h1 id="pcText">PC (0)</h2>
+                <div class="imgContainer">
+                    <img style="visibility: hidden;" class="imgGames" id="pcIcon" src="./icons/paper.svg"/>
+                </div>
+            </span>
+
+        </div>
+
+            <h2 id="resText">Why are u reading this, lol</h2>
+
+        </div>
+        
+        <footer>
+
+            <h4><i>Page made by Alexander González Covic</i></h4>
+            <a href="https://github.com/Covicale"><img class="iconGit" src="./icons/gitIcon.png"/></a>
+
+        </footer>
+
     </main>
-    
 </body>
+
 </html>
